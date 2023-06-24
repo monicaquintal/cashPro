@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-color: #F1F1F1;
+}
+
+header {
+  height: 25rem;
+  background-color: #F1F1F1;
+}
+
+.cabecalho {
+  background-color: #FF00B6;
+  height: 12rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  color: #FFFFFF;
+}
+
+.perfil img {
+  width: 5rem;
+}
+
+.info-perfil p {
+  margin-bottom: .3rem;
+  font-size: 1.1rem;
+}
+
+.info-perfil h2 {
+  font-weight: bold;
+}
+
+.icone-notificacao {
+  font-size: 1.5rem;
+}
+
+.mes {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 100;
+  font: 1.2rem;
+}
+
+.mes span {
+  font-weight: bold;
+}
+
+.saldo {
+  background-color: #FFFFFF;
+  position: relative;
+  margin: -3rem 1rem 0;
+  padding: 1rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.saldo-atual {
+  display: flex;
+  gap: 1rem;
+  margin-left: .5rem;
+}
+
+.saldo-atual img {
+  height: 4.5rem;
+}
+
+.saldo-atual h2 {
+  font-weight: bold;
+}
+
+.detalhes {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: -.5rem;
+}
+
+.receitas-despesas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.receitas, .despesas {
+  background-color: #FFFFFF;
+  margin: 1rem;
+  padding: .5rem;
+  border-radius: 15px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.receitas-texto, .despesas-texto {
+  margin-top: .5rem;
+}
+
+.receitas i, .despesas i {
+  font-size: 2.5rem;
+  margin: 0 1rem;
+}
+
+.receitas i {
+  color: green;
+}
+
+.despesas i {
+  color: darkred;
+}
+

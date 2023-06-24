@@ -126,5 +126,19 @@ body {
 }
 
 .logo img {
-  width: 60%;
+  height: 5rem;
+}
+
+@media (min-width: 768px) {
+  .principal {
+    width: 50%;
+  }
+
+  .titulo h1 {
+    padding: 0;
+  }
+
+  .logo img {
+    height: 4rem;
+  }
 }
