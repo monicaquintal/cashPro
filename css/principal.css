@@ -88,6 +88,17 @@ header {
   margin-bottom: -.5rem;
 }
 
+.detalhes a, .receitas a, .despesas a {
+  color: black;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.detalhes a:hover, .receitas a:hover, .despesas a:hover {
+  color: #FF00B6;
+  cursor: pointer;
+}
+  
 .receitas-despesas {
   display: flex;
   justify-content: space-between;
@@ -101,7 +112,6 @@ header {
   width: 50%;
   display: flex;
   align-items: center;
-  justify-content: baseline;
   box-shadow: 5px 5px 20px gray;
 }
 
@@ -122,3 +132,67 @@ header {
   color: darkred;
 }
 
+.conteudo-principal {
+  margin: 0 1.5rem;
+}
+
+.conteudo-principal h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.lista-itens {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px gray;
+}
+
+.item {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.item p {
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+.item i {
+  font-size: 3rem;
+  color: #3e3e3e;
+  margin-top: .5rem;
+}
+
+.detalhes-item {
+  text-align: right;
+}
+
+.detalhes-item i {
+  font-size: 1rem;
+}
+
+.item-despesa {
+  color: red;
+}
+
+.item-receita {
+  color: green;
+}
+
+footer {
+  margin: 2rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color:black;
+  transition: .3s;
+}
+
+footer a:hover {
+  color:#FF00B6;
+  cursor: pointer;
+}
