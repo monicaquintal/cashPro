@@ -102,6 +102,7 @@ header {
 .receitas-despesas {
   display: flex;
   justify-content: space-between;
+  font-size: 1.1rem;
 }
 
 .receitas, .despesas {
@@ -133,7 +134,7 @@ header {
 }
 
 .conteudo-principal {
-  margin: 0 1.5rem;
+  margin: 1.5rem;
 }
 
 .conteudo-principal h2 {
@@ -195,4 +196,39 @@ footer a {
 footer a:hover {
   color:#FF00B6;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+  .saldo {
+    width: 40%;
+    margin-top: -1rem;
+  }
+
+  .receitas-despesas {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .receitas, .despesas {
+    width: 40%;
+  }
+
+  .conteudo-principal {
+    position: relative;
+    margin-left: 45%;
+    margin-top: -14rem;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+  }
+
+  .lista-itens {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 0;
+  }
+
 }
