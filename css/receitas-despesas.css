@@ -39,3 +39,36 @@
 .conteudo-principal {
   margin-top: 20rem;
 }
+
+@media (min-width: 768px) {
+
+  .novo-registro {
+    width: 40%;
+    background-color: #FFFFFF;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+    font-size: 1rem;
+  }
+  
+  .novo-registro h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .conteudo-principal {
+    position: relative;
+    margin-left: 45%;
+    margin-top: -14rem;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px gray;
+  }
+
+  .rodape {
+      text-align: right;
+  }
+
+}
