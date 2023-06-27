@@ -80,6 +80,7 @@ header {
 
 .saldo-atual h2 {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .detalhes {
@@ -102,7 +103,7 @@ header {
 .receitas-despesas {
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .receitas, .despesas {
@@ -121,7 +122,7 @@ header {
 }
 
 .receitas i, .despesas i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0 1rem;
 }
 
@@ -134,12 +135,13 @@ header {
 }
 
 .conteudo-principal {
-  margin: 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .conteudo-principal h2 {
   font-weight: bold;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
 .lista-itens {
@@ -161,9 +163,13 @@ header {
 }
 
 .item i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #3e3e3e;
   margin-top: .5rem;
+}
+
+.descricao-item h3 {
+  font-size: 1.6rem;
 }
 
 .detalhes-item {
@@ -208,10 +214,16 @@ footer a:hover {
   .receitas-despesas {
     display: flex;
     flex-direction: column;
+    font-size: 1.1rem;
   }
   
   .receitas, .despesas {
     width: 40%;
+  }
+
+  .receitas i, .despesas i {
+    font-size: 2.5rem;
+    margin: 0 1rem;
   }
 
   .conteudo-principal {
@@ -224,11 +236,36 @@ footer a:hover {
     box-shadow: 5px 5px 20px gray;
   }
 
+  .conteudo-principal h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
   .lista-itens {
     background-color: #FFFFFF;
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0 0 0;
   }
+
+  .descricao-item h3 {
+    font-size: 2rem;
+  }
+
+  .item p {
+    line-height: 1rem;
+    font-size: 1rem;
+  }
+  
+  .item i {
+    font-size: 2.5rem;
+    color: #3e3e3e;
+    margin-top: .5rem;
+  }
+
+  .detalhes-item i {
+    font-size: 1.1rem;
+  }
+  
 
 }
