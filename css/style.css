@@ -39,8 +39,10 @@ body {
 
 header {
   background-image: url(../images/background.png);
-  background-position: center;
-  background-repeat: none;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 #home {
