@@ -15,13 +15,13 @@ Atividade desenvolvida no 1° módulo do curso de Análise e Desenvolvimento de 
   <a href="#-layout">Layout</a>
 </p>
 
-<p align="center">
-
-> incluir img com preview
-
-</p>
-
 <br>
+
+<div align="center">
+
+
+
+</div>
 
 ## 💭 Proposta
 
@@ -76,3 +76,11 @@ Esta primeira versão começa com um sistema web que registrará as informaçõe
 ## 🪙 Layout
 
 Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/aqY65Gf6OafWQ0t3Ctmaut/Fintech?type=design&node-id=8-82&mode=design&t=4j20Au4OsYYa2nZ1-0" target="_blank">desse link</a>.
+
+<div align="center">
+
+https://github.com/monicaquintal/cashPro/assets/111545468/78b541ef-a20b-488b-aaf4-2c9ada994c1e
+
+https://github.com/monicaquintal/cashPro/assets/111545468/476c05ff-6e39-4a1a-a2d4-cff2d80539ae
+
+</div>
