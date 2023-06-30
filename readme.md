@@ -17,9 +17,9 @@ Atividade desenvolvida no 1° módulo do curso de Análise e Desenvolvimento de 
 <br>
 
 <div align="center">
-<img src="./images/print-cashpro-1.png" width="70%">
-<br>
-<img src="./images/print-cashpro-2.png" width="70%">
+<img src="./images/print-cashpro-1.png" width="80%">
+<br><br>
+<img src="./images/print-cashpro-2.png" width="80%">
 </div>
 <br>
 
