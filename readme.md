@@ -73,6 +73,6 @@ O objetivo consiste em desenvolver uma solução que ajude o usuário a controla
 <br>
 Esta primeira versão começa com um sistema web que registrará as informações básicas do usuário. O sistema web terá layout responsivo e a sua interface desenvolvida, necessariamente, utilizando tecnologias como HTML, CSS, JavaScript (Bootstrap também é obrigatório). 
 
-## 🔖 Layout
+## 🪙 Layout
 
 Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/aqY65Gf6OafWQ0t3Ctmaut/Fintech?type=design&node-id=8-82&mode=design&t=4j20Au4OsYYa2nZ1-0" target="_blank">desse link</a>.
