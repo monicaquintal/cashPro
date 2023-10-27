@@ -6,4 +6,5 @@
  *
  */
 module cashPro {
+	requires java.sql;
 }
