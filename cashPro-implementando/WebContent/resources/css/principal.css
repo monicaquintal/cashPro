@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.topo-principal {
+  background-color: var(--neon-pink);
+}
+
+span {
+  font-weight: bold;
+}
+
+.botao {
+  width: 16rem;
+}
+
+
+.caixa-esquerda {
+  margin-top: -2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  transition: .5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--light-pink);
+}
+
+.receitas-despesas i {
+  font-size: 2.5rem;
+}
+
+.caixa-direita i {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 995px) {
+  .caixa-direita {
+    margin-top: -2.5rem;
+  }
+}
+
+@media (max-width: 995px) {
+  .botao-voltar {
+      margin: -20px;
+      border-radius: 100px;
+      width: 30px;
+      height: 35px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .texto-voltar {
+      display: none;
+  }  
+}

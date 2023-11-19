@@ -1,0 +1,89 @@
+/* GERAL */
+
+body {
+  background-image: url(../images/background.png);
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+main {
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 1rem;
+  box-shadow: 3px 3px 20px var(--dark-gray);
+}
+
+.titulo-principal {
+  color:var(--neon-pink);
+  font-weight: 700;
+  text-shadow: 5px 5px 5px var(--gray);
+}
+
+.box-input {
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  gap: 1rem;
+  align-items: baseline;
+  border: 1px solid var(--gray);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px var(--gray);
+}
+
+.form-control {
+  border: white;
+}
+
+.botao {
+  width: 16rem;
+}
+
+a {
+  color: var(--neon-pink);
+  text-decoration: none;
+  font-weight: bold;
+  transition: .5s;
+}
+
+a:hover {
+  color: var(--dark-pink);
+  cursor: pointer;
+}
+
+.redes i {
+  font-size: 45px;
+  color: var(--dark-gray);
+  transition: .7s;
+  text-shadow: 5px 5px 5px var(--gray);
+}
+
+.redes i:hover {
+  color: var(--dark-pink);
+}
+
+.logo img {
+  height: 60px;
+}
+
+@media (max-width: 768px) {
+
+  .botao-voltar {
+    margin: -20px;
+    border-radius: 100px;
+    width: 30px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texto-voltar {
+    display: none;
+  }
+
+}
